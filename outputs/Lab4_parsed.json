@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "ref": "Rf1",
+      "value": "5k",
+      "footprint": "",
+      "lib_id": "Device:R_US"
+    },
+    {
+      "ref": "V-TP1",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "ref": "Rs2",
+      "value": "Rk",
+      "footprint": "",
+      "lib_id": "Device:R_Potentiometer_Trim_US"
+    },
+    {
+      "ref": "C1",
+      "value": "C",
+      "footprint": "",
+      "lib_id": "Device:C"
+    },
+    {
+      "ref": "GND_TP2",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "ref": "Vout_TP1",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "ref": "Rs1",
+      "value": "1k",
+      "footprint": "",
+      "lib_id": "Device:R_US"
+    },
+    {
+      "ref": "U1",
+      "value": "TLV2372",
+      "footprint": "",
+      "lib_id": "Amplifier_Operational:TLV2372"
+    },
+    {
+      "ref": "U2",
+      "value": "TLV2372",
+      "footprint": "",
+      "lib_id": "Amplifier_Operational:TLV2372"
+    },
+    {
+      "ref": "J1",
+      "value": "Conn_Coaxial",
+      "footprint": "",
+      "lib_id": "Connector:Conn_Coaxial"
+    },
+    {
+      "ref": "GND_TP1",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "ref": "SIG_IN_TP1",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "ref": "VDD_TP1",
+      "value": "TestPoint",
+      "footprint": "",
+      "lib_id": "Connector:TestPoint"
+    }
+  ],
+  "nets": [
+    {
+      "name": "VDD",
+      "code": 1,
+      "nodes": []
+    },
+    {
+      "name": "GND",
+      "code": 2,
+      "nodes": []
+    },
+    {
+      "name": "GND",
+      "code": 3,
+      "nodes": []
+    },
+    {
+      "name": "SIG_IN",
+      "code": 4,
+      "nodes": []
+    },
+    {
+      "name": "GND",
+      "code": 5,
+      "nodes": []
+    },
+    {
+      "name": "VDD",
+      "code": 6,
+      "nodes": []
+    },
+    {
+      "name": "V-",
+      "code": 7,
+      "nodes": []
+    },
+    {
+      "name": "SIG_IN",
+      "code": 8,
+      "nodes": []
+    },
+    {
+      "name": "Vout",
+      "code": 9,
+      "nodes": []
+    },
+    {
+      "name": "V-",
+      "code": 10,
+      "nodes": []
+    },
+    {
+      "name": "GND",
+      "code": 11,
+      "nodes": []
+    },
+    {
+      "name": "Vout",
+      "code": 12,
+      "nodes": []
+    },
+    {
+      "name": "GND",
+      "code": 13,
+      "nodes": []
+    },
+    {
+      "name": "NET_U_3",
+      "code": 14,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_2",
+      "code": 15,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_1",
+      "code": 16,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_5",
+      "code": 17,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "5"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_6",
+      "code": 18,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "6"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_7",
+      "code": 19,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "7"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_8",
+      "code": 20,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "8"
+        }
+      ]
+    },
+    {
+      "name": "NET_U_4",
+      "code": 21,
+      "nodes": [
+        {
+          "ref": "U",
+          "pin": "4"
+        }
+      ]
+    },
+    {
+      "name": "NET_J_1",
+      "code": 22,
+      "nodes": [
+        {
+          "ref": "J",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_J_2",
+      "code": 23,
+      "nodes": [
+        {
+          "ref": "J",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "NET_TP_1",
+      "code": 24,
+      "nodes": [
+        {
+          "ref": "TP",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_C_1",
+      "code": 25,
+      "nodes": [
+        {
+          "ref": "C",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_C_2",
+      "code": 26,
+      "nodes": [
+        {
+          "ref": "C",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "NET_RV_1",
+      "code": 27,
+      "nodes": [
+        {
+          "ref": "RV",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_RV_3",
+      "code": 28,
+      "nodes": [
+        {
+          "ref": "RV",
+          "pin": "3"
+        }
+      ]
+    },
+    {
+      "name": "NET_RV_2",
+      "code": 29,
+      "nodes": [
+        {
+          "ref": "RV",
+          "pin": "2"
+        }
+      ]
+    },
+    {
+      "name": "NET_R_1",
+      "code": 30,
+      "nodes": [
+        {
+          "ref": "R",
+          "pin": "1"
+        }
+      ]
+    },
+    {
+      "name": "NET_R_2",
+      "code": 31,
+      "nodes": [
+        {
+          "ref": "R",
+          "pin": "2"
+        }
+      ]
+    }
+  ],
+  "footprint_suggestions": {
+    "Rf1": "Resistor_SMD:R_0603",
+    "V-TP1": "Resistor_SMD:R_0603",
+    "Rs2": "Resistor_SMD:R_0603",
+    "C1": "Capacitor_SMD:C_0603",
+    "GND_TP2": "Resistor_SMD:R_0603",
+    "Vout_TP1": "Resistor_SMD:R_0603",
+    "Rs1": "Resistor_SMD:R_0603",
+    "U1": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "U2": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "J1": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "GND_TP1": "Resistor_SMD:R_0603",
+    "SIG_IN_TP1": "Resistor_SMD:R_0603",
+    "VDD_TP1": "Resistor_SMD:R_0603"
+  }
+}
